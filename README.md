@@ -14,7 +14,7 @@ possible letters are “L”, “R” and ”M”. “L” and “R” make the 
 right respectively, without moving from its current spot. “M” means to move forward one
 grid point and maintain the same Heading.
 
-# Input 
+### Input 
 
 The first line of input is the upper-right coordinates of the plateau, the bottom-left
 coordinates are assumed to be 0, 0.
@@ -30,20 +30,24 @@ to move until the first one has finished moving.
 
 An example for the input is set as a file called **input.txt** .
 
-# Output
+### Output
 
 The output for each mower should be its final coordinates and heading.
 
-# Tech stack
+### Tech stack
 
 * Java 21
 * Maven
 
-# Build the project
+### Build the project
 
-```mvn clean install```
+```
+mvn clean install
+```
 
-# Run the app 
+### Run the app 
 
-```java -jar target/seat-mower-app-1.0-SNAPSHOT-jar-with-dependencies.jar input.txt```
+```
+java -jar target/seat-mower-app-1.0-SNAPSHOT-jar-with-dependencies.jar input.txt
+```
 

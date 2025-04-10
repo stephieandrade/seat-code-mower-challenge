@@ -34,6 +34,11 @@ An example for the input is set as a file called **input.txt** .
 
 The output for each mower should be its final coordinates and heading.
 
+```
+1 3 N
+5 1 E
+```
+
 ### Tech stack
 
 * Java 21
